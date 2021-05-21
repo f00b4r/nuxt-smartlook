@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webkitty/nuxt-smartlook"
+    "url": "https://github.com/f00b4r/nuxt-smartlook"
   },
   "bugs": {
-    "url": "https://github.com/webkitty/nuxt-smartlook/issues"
+    "url": "https://github.com/f00b4r/nuxt-smartlook/issues"
   },
   "main": "dist/index.js",
   "files": [
