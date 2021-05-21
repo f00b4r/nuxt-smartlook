@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "ES6",
+      "dom"
+    ],
+    "moduleResolution": "Node",
+    "module": "ES6",
+    "target": "ES6",
+    "outDir": "dist",
+    "sourceMap": false,
+    "declaration": false,
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "templates"
+  ]
+}

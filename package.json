@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-smartlook",
+  "version": "0.0.1",
+  "author": {
+    "name": "f3l1x",
+    "url": "https://f3l1x.io",
+    "email": "milan@sulc.dev"
+  },
+  "description": "Smartlook tracking plugin for Nuxt.js",
+  "keywords": [
+    "smartlook",
+    "tracking",
+    "nuxt",
+    "nuxtjs",
+    "vue"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webkitty/nuxt-smartlook"
+  },
+  "bugs": {
+    "url": "https://github.com/webkitty/nuxt-smartlook/issues"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/**",
+    "templates/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "tsc"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.6",
+    "@types/node": "^15.3.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "consola": "^2.15.3"
+  }
+}
