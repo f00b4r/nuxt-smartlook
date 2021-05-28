@@ -2,7 +2,7 @@ import path from "path";
 import { Module } from "@nuxt/types";
 import consola from "consola";
 
-const logger = consola.withScope('nuxt:tailwindcss')
+const logger = consola.withScope('nuxt:smartlook')
 
 const nuxtModule: Module<ModuleOptions> = function (moduleOptions: Partial<ModuleOptions>) {
   const options: Partial<ModuleOptions> = {
